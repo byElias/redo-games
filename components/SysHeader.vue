@@ -1,15 +1,15 @@
 <template>
-    <div class="flex justify-center md:justify-between items-center bg-black text-white h-20">
+    <div class="flex justify-center md:justify-between items-center bg-black text-white h-20 w-full">
       
       <!-- Logo -->
-      <div class="whitespace-nowrap text-4xl font-extrabold mx-10">
+      <div class="whitespace-nowrap text-4xl font-extrabold px-10 hidden sm:block">
         REDO GAMES
       </div>
   
       <!-- Navigation -->
-      <div class="hidden md:block">
+      <div class="">
         <nav>
-          <ul class="flex text-xl flex-row space-x-7 font-bold mx-10 whitespace-nowrap">
+          <ul class="flex text-base flex-row font-bold pr-5 whitespace-nowrap">
             <li>
               <router-link
                 to="/"
@@ -19,7 +19,7 @@
                 Home
               </router-link>
             </li>
-            <li>
+            <li class="pl-7">
               <router-link
                 to="/available-games"
                 class="hover:text-gray-400"
@@ -28,7 +28,7 @@
                 Available Games
               </router-link>
             </li>
-            <li>
+            <li class="ml-7">
               <router-link
                 to="/about-us"
                 class="hover:text-gray-400"

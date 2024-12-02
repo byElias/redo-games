@@ -3,9 +3,12 @@
         <Header>
             <SysHeader/>
         </Header>
-        <main class="flex-grow bg-black">
+        <main>
             <slot/>
         </main>
+        <Footer>
+            <SysFooter/>
+        </Footer>
     </div>
   </template>
   
