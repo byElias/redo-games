@@ -1,3 +1,5 @@
 <template>
-  <SysHeader/>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
