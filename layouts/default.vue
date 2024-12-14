@@ -1,14 +1,19 @@
 <template>
     <div class="flex flex-col min-h-screen">
-        <Header>
-            <SysHeader/>
-        </Header>
-        <main>
-            <slot/>
-        </main>
-        <Footer>
-            <SysFooter/>
-        </Footer>
+      <!-- Header -->
+      <header class="w-full">
+        <SysHeader />
+      </header>
+  
+      <!-- Hauptinhalt -->
+      <main class="flex-grow">
+        <slot />
+      </main>
+  
+      <!-- Footer -->
+      <footer class="w-full">
+        <SysFooter />
+      </footer>
     </div>
   </template>
   

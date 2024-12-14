@@ -1,0 +1,80 @@
+[
+    {
+      "name": "ANDROID",
+      "image": "images/th.jpg",
+      "releaseDate": "8.4.24",
+      "gameLink": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "platforms": "ANDROID"
+    },
+    {
+      "name": "IOS",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "10.5.22",
+      "gameLink": "https://example.com/game2",
+      "platforms": "IOS"
+    },
+    {
+      "name": "WIN",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "15.6.21",
+      "gameLink": "https://example.com/game3",
+      "platforms": "WINDOWS"
+    },
+    {
+      "name": "LIN",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "1.1.23",
+      "gameLink": "https://example.com/game4",
+      "platforms": "LINUX"
+    },
+    {
+      "name": "MAC",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "4.3.23",
+      "gameLink": "https://example.com/game5",
+      "platforms": "MAC OS"
+    },
+    {
+      "name": "AND WIN",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "6.6.22",
+      "gameLink": "https://example.com/game6",
+      "platforms": "ANDROID WINDOWS"
+    },
+    {
+      "name": "AND LIN WIN",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "9.9.21",
+      "gameLink": "https://example.com/game7",
+      "platforms": "ANDROID LINUX WINDOWS"
+    },
+    {
+      "name": "ANDROID",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "10.10.20",
+      "gameLink": "https://example.com/game8",
+      "platforms": "ANDROID"
+    },
+    {
+      "name": "ANDROID",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "2.2.22",
+      "gameLink": "https://example.com/game9",
+      "platforms": "ANDROID"
+    },
+    {
+      "name": "ANDROID",
+      "image": "https://static.wixstatic.com/media/92eefc_1e4b0b911da0470c88caa465f59ed9fd~mv2.png/v1/crop/x_0,y_65,w_225,h_83/fill/w_248,h_91,al_c,lg_1,q_85,enc_avif,quality_auto/images.png",
+      "releaseDate": "5.5.22",
+      "gameLink": "https://example.com/game10",
+      "platforms": "ANDROID"
+    }
+  ]
+  
+    
+  
+  
+  
+  
+  
+  
