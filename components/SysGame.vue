@@ -1,9 +1,9 @@
 <template>
     <div class="flex justify-center">
-      <div class="w-1/3 min-w-[350px] md:min-w-[600px] h-auto min-h-[500px] bg-gray-900 rounded-xl flex my-20">
+        <div class="w-[130vh] bg-zinc-950 rounded-xl flex my-20 flex-col sm:flex-row">
         
         <!-- Linke Spalte in Tabelle, auf kleinen Bildschirmen ausgeblendet -->
-        <div class="bg-slate-950 w-1/4 h-full text-white font-bold rounded-xl whitespace-nowrap pl-3 hidden md:block">
+        <div class="w-1/4 h-full text-white font-bold rounded-xl whitespace-nowrap px-3">
           <p class="py-2">PLATFORMS</p>
           <ul class="space-y-2 pt-2">
             <li>
@@ -30,24 +30,30 @@
         </div>
     
         <!-- Loop über gefilterte Spiele -->
-        <div class="w-3/4 h-full p-4">
-          <div v-for="game in filteredGames" :key="game.name" class="flex items-center bg-black text-white rounded-xl p-4 w-full max-w-lg mb-4">
+        <div class="w-full">
+          <div v-for="game in filteredGames" :key="game.name" class="flex items-center bg-zinc-900 text-white my-5 w-full sm:w-[90%] pr-5">
   
             <!-- Logo -->
-            <div class="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center">
-              <img :src="game.image" alt="App Logo" class="w-full h-full" />
+            <div class="rounded-xl flex items-center justify-center shrink-0">
+              <img :src="game.image" alt="App Logo" class="w-24 h-24"/>
             </div>
     
             <!-- Name und Release Datum -->
-            <div class="flex flex-col ml-4 space-y-2">
-              <h3 class="font-bold text-lg">{{ game.name }}</h3>
+            <div class="flex flex-col ml-4 flex-grow justify-start">
+              <h3 class="font-bold text-lg min-w-52 w-auto">{{ game.name }}</h3>
+              <h3 class="sm:hidden text-sm text-gray-300">{{ game.platforms }}</h3>
               <div class="flex items-center space-x-2">
                 <span class="text-sm text-gray-400">{{ game.releaseDate }}</span>
               </div>
             </div>
+
+            <!-- md Platforms-->
+            <div class="hidden md:flex flex-grow flex-col justify-between">
+              <h3 class="font-semibold text-base w-24">{{ game.platforms }}</h3>
+            </div>
             
             <!-- See More -->
-            <div class="ml-auto text-sm text-blue-500 cursor-pointer">
+            <div class="ml-2 text-sm text-white cursor-pointer flex flex-grow justify-end">
               <a :href="game.gameLink" target="_blank">see more</a>
             </div>
           </div>

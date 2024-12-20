@@ -61,13 +61,3 @@
     
   </div>  
 </template>
-
-<script>
-import SysSocialMedia from './components/SysSocialMedia.vue';
-
-export default {
-  components: {
-    SysSocialMedia
-  }
-}
-</script>
