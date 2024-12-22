@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black pt-20">
+    <div class="bg-black pt-20 cursor-crosshair">
       <div class="relative w-full h-[600px]">
 
         <!-- Hintergrundvideo -->

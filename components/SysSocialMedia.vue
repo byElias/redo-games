@@ -4,18 +4,20 @@
         </a>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
   props: {
     link: {
-      type: String,
-      required: true
+      type: String as () => string,
+      required: true,
     },
     icon: {
-      type: String,
-      required: true
-    }
-  }
-}
+      type: String as () => string,
+      required: true,
+    },
+  },
+});
 </script>
 

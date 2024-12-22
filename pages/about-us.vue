@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-col min-h-screen pt-20 bg-black">
+    <div class="flex flex-col min-h-screen pt-20 bg-black cursor-crosshair">
         <div class="pt-20 flex items-center justify-center flex-col text-white">
 
             <p class="text-5xl font-bold pb-20">About Us</p>
 
-            <div class="grid grid-cols-2 w-full pb-10">
+            <div class="grid md:grid-cols-2 w-full pb-10">
                 <div class="border border-gray-300 flex items-center justify-center">
                     <img class="h-[550px] w-full" src="https://static.wixstatic.com/media/11062b_9456e610ba474c50b4ad5cd8f475d623~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_614,h_605,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_9456e610ba474c50b4ad5cd8f475d623~mv2_d_5760_3840_s_4_2.jpg" alt="Bild konnte nicht geladen werden...">
                 </div>

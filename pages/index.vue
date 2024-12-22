@@ -1,5 +1,5 @@
 <template>
-  <div class="h-auto min-h-screen bg-black pt-20">
+  <div class="h-auto min-h-screen bg-black pt-20 cursor-crosshair">
 
     <!-- Video Element -->
     <div class="w-full h-[600px] overflow-hidden">

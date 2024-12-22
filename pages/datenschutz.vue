@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col min-h-screen pt-20 bg-black text-white">
+    <div class="flex flex-col min-h-screen pt-20 bg-black text-white cursor-crosshair">
         
         <h1 class="text-center pt-20 text-5xl">Datenschutz</h1>
 
