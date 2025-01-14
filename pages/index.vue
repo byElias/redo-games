@@ -13,20 +13,15 @@
     
     <!-- Media -->
     <div class="absolute left-1/2 top-[200px] transform -translate-x-1/2">
-      <div class="text-6xl font-extrabold text-white text-center my-3">
-        REDO GAMES
-      </div>
-        
-      <div class="font-extrabold text-white text-center">
-        mobile | desktop | console | webgames
-      </div>
+      <div class="text-6xl font-extrabold text-white text-center my-3">REDO GAMES</div>
+      <div class="font-extrabold text-white text-center">mobile | desktop | console | webgames</div>
         
       <!-- Ko-Fi-->
       <div class="flex justify-center my-3">
         <SysKofiButton></SysKofiButton>
       </div>
     
-        <!-- Social Media Buttons-->
+      <!-- Social Media Buttons-->
       <ul class="flex flex-nowrap justify-center space-x-3 my-6">
         <li>
           <SysSocialMedia

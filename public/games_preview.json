@@ -1,7 +1,7 @@
 [
     {
-        "name": "Adventskranz",
-        "video": "../assets/default.mp4",
+        "name": "Mein neues Spiel",
+        "video": "../assets/previewfiles/newgame.mp4",
         "link": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_chania"
     }
 ]

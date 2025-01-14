@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import GamesList from './components/SysGame.vue';
+  import GamesList from './components/SysGame.vue';
 
-export default {
-  components: {
-    GamesList
-  }
-};
+  export default {
+    components: {
+      GamesList
+    }
+  };
 </script>
