@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-black h-screen pt-36 cursor-crosshair">
+  <div class="bg-black h-screen pt-36">
     <div class="flex bg-zinc-800 h-auto justify-center">
-      <div class="text-white pt-16 px-[20%] flex flex-col w-full">
-        <h1 class="text-5xl">contact</h1>
+      <div class="text-white pt-16 px-[20%] flex flex-col w-full p-20">
+        <h1 class="text-5xl" style="font-family: 'Russo One', sans-serif">contact</h1>
         <p class="pt-16">E-Mail Adresse</p>
         <a href="mailto:redo.games.message@gmail.com" class="py-4 border-b-2">redo.games.message@gmail.com</a>
         
-        <form @submit.prevent="submit(form)">
+        <!-- <form @submit.prevent="submit(form)">
           <div class="input-wrapper my-5">
             <div class="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-[10%] ">
 
@@ -32,12 +32,13 @@
             </div>
 
           </div>
-        </form>
+        </form> -->
 
-        <button type="submit" class="w-[35%] h-[35px] bg-red-700 rounded-lg hover:bg-red-900 mb-10">
+        <!-- <button type="submit" class="w-[35%] h-[35px] bg-red-700 rounded-lg hover:bg-red-900 mb-10">
           <template v-if="waiting">Laden</template>
           <template v-if="!waiting">Abschicken</template>
-        </button>
+        </button> -->
+
         <p v-if="errors">Ups! Hier ist etwas schief gelaufen</p>
         <p v-if="success">Abgeschickt! Vielen Dank für deine Anfrage</p>
             

@@ -11,5 +11,12 @@ export default defineNuxtConfig({
      MAILUSER: process.env.MAILUSER,
      MAILPASSWORD: process.env.MAILPASSWORD,
      CONTACTMAIL: process.env.CONTACTMAIL
+  },
+  app: {
+    head: {
+      link: [
+        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Russo+One&display=swap" }
+      ]
+    }
   }
 })

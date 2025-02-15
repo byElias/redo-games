@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black pt-20 cursor-crosshair">
+  <div class="bg-black pt-20">
     <div class="relative w-full h-[600px]">
 
       <!-- Hintergrundvideo -->
@@ -14,9 +14,9 @@
   
       <!-- Text und Button -->
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-        <h1 class="text-4xl font-bold mb-4 text-white">{{ gamesPreview.name}}</h1>
+        <h1 class="text-4xl font-bold mb-4 text-white" style="font-family: 'Russo One', sans-serif">{{ gamesPreview.name}}</h1>
         <nav>
-          <a :href="gamesPreview.link" target="_blank" class="px-6 py-2 bg-white text-purple-700 font-semibold rounded-lg">See More</a>
+          <a :href="gamesPreview.link" target="_blank" class="px-6 py-2 bg-white text-red-800 font-extrabold rounded-lg">See More</a>
         </nav>
       </div> 
     </div>

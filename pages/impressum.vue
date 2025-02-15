@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col min-h-screen pt-20 bg-black text-white cursor-crosshair">
+    <div class="flex flex-col min-h-screen pt-20 bg-black text-white">
         
-        <h1 class="text-center pt-20 text-5xl">Impressum</h1>
+        <h1 class="text-center pt-20 text-5xl" style="font-family: 'Russo One', sans-serif">Impressum</h1>
 
         <div class="py-20 flex justify-center">
             <div class="bg-zinc-800 w-full rounded p-10 space-y-10 md:w-2/3">
