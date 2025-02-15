@@ -1,4 +1,27 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "types": ["vue"]
+  },
+  "include": [
+    "node_modules/vue/**/*",      // Achte darauf, dass dies korrekt aufgelöst wird
+    "src/**/*.ts",                 // Alle TypeScript-Dateien im src-Ordner
+    "src/**/*.d.ts",               // Alle d.ts-Dateien im src-Ordner
+    "src/**/*.vue",                // Alle Vue-Dateien im src-Ordner
+    "public/**/*.json"             // Falls du JSON-Dateien im public-Ordner verwendest
+  ],
+  "exclude": [
+    "node_modules",                // Schließt node_modules aus
+    ".nuxt"                        // Schließt generierte Nuxt-Dateien aus
+  ]
 }

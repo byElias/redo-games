@@ -28,7 +28,7 @@
   
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import previewData from '@/public/games_preview.json';
+  import previewData from '../public/games_preview.json';
   
   export default defineComponent({
     data() {
