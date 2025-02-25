@@ -13,8 +13,8 @@
     
     <!-- Media -->
     <div class="absolute left-1/2 top-[200px] transform -translate-x-1/2">
-      <div class="text-3xl font-extrabold text-white text-center my-3" style="font-family: 'Russo One', sans-serif">REDO GAMES</div>
-      <div class="text-white text-center" style="font-family: 'Russo One', sans-serif">mobile | desktop | console | webgames</div>
+      <div class="text-6xl font-extrabold text-white text-center my-3" style="font-family: 'Russo One', sans-serif">REDO GAMES</div>
+      <div class="text-white text-center text-xl" style="font-family: 'Russo One', sans-serif">mobile | desktop | console | webgames</div>
         
       <!-- Ko-Fi-->
       <div class="flex justify-center my-3">
@@ -25,17 +25,17 @@
       <ul class="flex flex-nowrap justify-center space-x-3 my-6">
         <li>
             <a href="https://www.youtube.com/@redogames8254" target="_blank" class="bg-white rounded-full">
-              <img src="@/assets/socialmediaicons/youtube.png" alt="">
+              <img src="@/assets/socialmediaicons/youtube.png" class="h-10" alt="">
             </a>
         </li>
         <li>
           <a href="https://www.tiktok.com/@redo_information" target="_blank" class="bg-white rounded-full">
-            <img src="@/assets/socialmediaicons/tiktok.png" alt="">
+            <img src="@/assets/socialmediaicons/tiktok.png" class="h-10" alt="">
           </a>
         </li>
         <li>
           <a href="https://discord.com/invite/G8WFHfMxvx" target="_blank" class="bg-white rounded-full">
-            <img src="@/assets/socialmediaicons/discord.png" alt="">
+            <img src="@/assets/socialmediaicons/discord.png" class="h-10" alt="">
           </a>
         </li>
       </ul>  

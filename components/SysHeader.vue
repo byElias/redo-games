@@ -7,7 +7,7 @@
     <!-- Navigation -->
     <div>
       <nav>
-        <ul class="flex flex-row font-bold px-5 whitespace-nowrap">
+        <ul class="flex flex-row font-bold px-5 whitespace-nowrap" style="font-family: 'Russo One', sans-serif">
           <li>
             <router-link to="/" class="hover:text-gray-400" :class="{ 'text-red-500': $route.path === '/' }">Home</router-link>
           </li>
